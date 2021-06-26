@@ -23,7 +23,7 @@ textAreaBox.addEventListener('input', () => {
 
     // Created an onlick event for the post cheep button to ensure an alert is shown to the user if there character
     cheepButton.onclick = () => {
-        // Too short/too long conditions applied to remaining characters number through alerts when button is clicked
+        // Too short/too long cheep conditions applied to the number of remaining characters, one of two alerts will be displayed once 'Post Cheep' button is clicked
         if (remainingCharactersNumber === 0 || remainingCharactersNumber > 0) {
             alert('Great! Your cheep post is within the character limit.');
        } else if (remainingCharactersNumber * 0.2 || remainingCharactersNumber === 1) {
@@ -40,71 +40,3 @@ textAreaBox.addEventListener('input', () => {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// (function() {
-//     // Setting min and max characters
-//     minCharactersAlert = 30;
-//     maxCharacters = 280;
-//     // Grabbing classes for Tweet entered and putting it into tweetEntry variable
-//     let tweetEntry = document.querySelector('.tweet-entry');
-    
-//     // Creating charactersRemainingTitle
-//         charactersRemainingTitle = '.characters-remaining';
-//         charactersRemaining = document.querySelector(charactersRemainingTitle);
-    
-//           // Displays original characters remaining from the beginning
-//           charactersRemaining.innerText = maxCharacters;
-  
-//           // Characters remaining will update with onkeydown event
-//           tweetEntry.onkeydown = function(){
-//           setTimeout(function(){
-//             charactersRemaining.innerText = maxCharacters - tweetEntry.value.length;
-  
-//             // Deciding to show alert class from looking at remaining classes
-//             let alertTitle = `${tweetEntry.value.length >= maxCharacters - mincharactersAlert ? 'warning' : ''}`;
-//             charactersRemaining.className = charactersRemainingTitle + alertTitle;
-//           }, 1); 
-//         };
-//   })();
