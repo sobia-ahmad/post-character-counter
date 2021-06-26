@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+body {
+    background-color: rgb(245,248,250);
+    color:rgb(29, 161, 242);
+}
+
+
+h1 {
+    padding: 5px;
+    font-size: 50px;
+}
+
+h2 {
+    padding: 10px;
+    font-size: 25px;
+}
+
+.titles {
+    color:rgb(29, 161, 242);
+    cursor: pointer;
+}
+
+.container {
+    margin: 20px;
+    padding: 80px;
+    text-align: center;
+}
+
+textarea {
+    font-size: 20px;
+}
+
+.textarea-box {
+    width: 100%;
+    height: 150px;
+}
+
+.remaining-characters-text {
+    margin: 5px;
+    color: rgb(63, 63, 63);
+    font-size: 20px;
+    font-weight: 400;
+    text-align: right;
+}
+
+.cheep-button {
+    background-color: rgb(29, 161, 242);
+    color: rgb(245,248,250);
+    border: none;
+    border-radius: 6px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 900;
+    padding: 8px 28px;
+    display: inline-block;
+    cursor: pointer;
+    align-content: center;
+}
+
+.cheep-button:hover {
+    background-color: rgb(95, 172, 220);
+}
