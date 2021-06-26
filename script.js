@@ -16,7 +16,6 @@ textAreaBox.addEventListener('input', () => {
     // Changes text to red when less than 20% of characters are remaining
     // redText var is saying when remaining characters number is less than 20% display red, otherwise do nothing to text
     // ? means then do this and : means if it's anything else do nothing, i.e. null
-    
     let redText = remainingCharactersNumber <= maxCharacters * 0.2 ? 'rgb(205, 14, 14)' : null;
     remainingCharactersText.style.color = redText;
     remainingCharactersText.innerText = `${remainingCharactersNumber} characters remaining for your 'cheep'` // template literals to place JS with a string
